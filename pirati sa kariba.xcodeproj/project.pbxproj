@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20535A71EC5D2530092E220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535A61EC5D2530092E220 /* AppDelegate.swift */; };
+		D20535A91EC5D2530092E220 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D20535A81EC5D2530092E220 /* GameScene.sks */; };
+		D20535AB1EC5D2530092E220 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D20535AA1EC5D2530092E220 /* Actions.sks */; };
+		D20535AD1EC5D2530092E220 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535AC1EC5D2530092E220 /* GameScene.swift */; };
+		D20535AF1EC5D2530092E220 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535AE1EC5D2530092E220 /* GameViewController.swift */; };
+		D20535B21EC5D2530092E220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20535B01EC5D2530092E220 /* Main.storyboard */; };
+		D20535B41EC5D2530092E220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20535B31EC5D2530092E220 /* Assets.xcassets */; };
+		D20535B71EC5D2530092E220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20535B51EC5D2530092E220 /* LaunchScreen.storyboard */; };
+		D20535CD1EC5D2650092E220 /* brodCrni1.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535BF1EC5D2650092E220 /* brodCrni1.png */; };
+		D20535CE1EC5D2650092E220 /* brodCrni2.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C01EC5D2650092E220 /* brodCrni2.png */; };
+		D20535CF1EC5D2650092E220 /* brodCrni3.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C11EC5D2650092E220 /* brodCrni3.png */; };
+		D20535D01EC5D2650092E220 /* brodCrni4.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C21EC5D2650092E220 /* brodCrni4.png */; };
+		D20535D11EC5D2650092E220 /* brodCrveni1.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C31EC5D2650092E220 /* brodCrveni1.png */; };
+		D20535D21EC5D2650092E220 /* brodCrveni2.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C41EC5D2650092E220 /* brodCrveni2.png */; };
+		D20535D31EC5D2650092E220 /* brodCrveni3.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C51EC5D2650092E220 /* brodCrveni3.png */; };
+		D20535D41EC5D2650092E220 /* brodCrveni4.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C61EC5D2650092E220 /* brodCrveni4.png */; };
+		D20535D51EC5D2650092E220 /* explosion1.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C71EC5D2650092E220 /* explosion1.png */; };
+		D20535D61EC5D2650092E220 /* explosion2.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C81EC5D2650092E220 /* explosion2.png */; };
+		D20535D71EC5D2650092E220 /* explosion3.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535C91EC5D2650092E220 /* explosion3.png */; };
+		D20535D81EC5D2650092E220 /* fire1.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535CA1EC5D2650092E220 /* fire1.png */; };
+		D20535D91EC5D2650092E220 /* fire2.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535CB1EC5D2650092E220 /* fire2.png */; };
+		D20535DA1EC5D2650092E220 /* tile_73.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535CC1EC5D2650092E220 /* tile_73.png */; };
+		D20535DC1EC5D6380092E220 /* cannonBall.png in Resources */ = {isa = PBXBuildFile; fileRef = D20535DB1EC5D6380092E220 /* cannonBall.png */; };
+		D213F9D21ECDCB92009CC9C9 /* cannonMobile.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D11ECDCB92009CC9C9 /* cannonMobile.png */; };
+		D213F9E81ECDCBA9009CC9C9 /* tile_13.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D31ECDCBA9009CC9C9 /* tile_13.png */; };
+		D213F9E91ECDCBA9009CC9C9 /* tile_15.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D41ECDCBA9009CC9C9 /* tile_15.png */; };
+		D213F9EA1ECDCBA9009CC9C9 /* tile_16.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D51ECDCBA9009CC9C9 /* tile_16.png */; };
+		D213F9EB1ECDCBA9009CC9C9 /* tile_30.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D61ECDCBA9009CC9C9 /* tile_30.png */; };
+		D213F9EC1ECDCBA9009CC9C9 /* tile_33.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D71ECDCBA9009CC9C9 /* tile_33.png */; };
+		D213F9ED1ECDCBA9009CC9C9 /* tile_34.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D81ECDCBA9009CC9C9 /* tile_34.png */; };
+		D213F9EE1ECDCBA9009CC9C9 /* tile_35.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9D91ECDCBA9009CC9C9 /* tile_35.png */; };
+		D213F9EF1ECDCBA9009CC9C9 /* tile_39.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DA1ECDCBA9009CC9C9 /* tile_39.png */; };
+		D213F9F01ECDCBA9009CC9C9 /* tile_41.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DB1ECDCBA9009CC9C9 /* tile_41.png */; };
+		D213F9F11ECDCBA9009CC9C9 /* tile_49.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DC1ECDCBA9009CC9C9 /* tile_49.png */; };
+		D213F9F21ECDCBA9009CC9C9 /* tile_50.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DD1ECDCBA9009CC9C9 /* tile_50.png */; };
+		D213F9F31ECDCBA9009CC9C9 /* tile_51.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DE1ECDCBA9009CC9C9 /* tile_51.png */; };
+		D213F9F41ECDCBA9009CC9C9 /* tile_52.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9DF1ECDCBA9009CC9C9 /* tile_52.png */; };
+		D213F9F51ECDCBA9009CC9C9 /* tile_53.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E01ECDCBA9009CC9C9 /* tile_53.png */; };
+		D213F9F61ECDCBA9009CC9C9 /* tile_55.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E11ECDCBA9009CC9C9 /* tile_55.png */; };
+		D213F9F71ECDCBA9009CC9C9 /* tile_60.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E21ECDCBA9009CC9C9 /* tile_60.png */; };
+		D213F9F81ECDCBA9009CC9C9 /* tile_62.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E31ECDCBA9009CC9C9 /* tile_62.png */; };
+		D213F9F91ECDCBA9009CC9C9 /* tile_64.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E41ECDCBA9009CC9C9 /* tile_64.png */; };
+		D213F9FA1ECDCBA9009CC9C9 /* tile_70.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E51ECDCBA9009CC9C9 /* tile_70.png */; };
+		D213F9FB1ECDCBA9009CC9C9 /* tile_71.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E61ECDCBA9009CC9C9 /* tile_71.png */; };
+		D213F9FC1ECDCBA9009CC9C9 /* tile_72.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9E71ECDCBA9009CC9C9 /* tile_72.png */; };
+		D213F9FF1ECDCBB5009CC9C9 /* tile_76.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9FD1ECDCBB5009CC9C9 /* tile_76.png */; };
+		D213FA001ECDCBB5009CC9C9 /* tile_85.png in Resources */ = {isa = PBXBuildFile; fileRef = D213F9FE1ECDCBB5009CC9C9 /* tile_85.png */; };
+		D213FA021ECDCCE9009CC9C9 /* tile_38.png in Resources */ = {isa = PBXBuildFile; fileRef = D213FA011ECDCCE9009CC9C9 /* tile_38.png */; };
+		D213FA041ECE040F009CC9C9 /* cannonLoose.png in Resources */ = {isa = PBXBuildFile; fileRef = D213FA031ECE040F009CC9C9 /* cannonLoose.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D20535A31EC5D2530092E220 /* pirati sa kariba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pirati sa kariba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20535A61EC5D2530092E220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D20535A81EC5D2530092E220 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D20535AA1EC5D2530092E220 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D20535AC1EC5D2530092E220 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D20535AE1EC5D2530092E220 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D20535B11EC5D2530092E220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D20535B31EC5D2530092E220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D20535B61EC5D2530092E220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D20535B81EC5D2530092E220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20535BF1EC5D2650092E220 /* brodCrni1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrni1.png; sourceTree = "<group>"; };
+		D20535C01EC5D2650092E220 /* brodCrni2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrni2.png; sourceTree = "<group>"; };
+		D20535C11EC5D2650092E220 /* brodCrni3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrni3.png; sourceTree = "<group>"; };
+		D20535C21EC5D2650092E220 /* brodCrni4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrni4.png; sourceTree = "<group>"; };
+		D20535C31EC5D2650092E220 /* brodCrveni1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrveni1.png; sourceTree = "<group>"; };
+		D20535C41EC5D2650092E220 /* brodCrveni2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrveni2.png; sourceTree = "<group>"; };
+		D20535C51EC5D2650092E220 /* brodCrveni3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrveni3.png; sourceTree = "<group>"; };
+		D20535C61EC5D2650092E220 /* brodCrveni4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodCrveni4.png; sourceTree = "<group>"; };
+		D20535C71EC5D2650092E220 /* explosion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion1.png; sourceTree = "<group>"; };
+		D20535C81EC5D2650092E220 /* explosion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion2.png; sourceTree = "<group>"; };
+		D20535C91EC5D2650092E220 /* explosion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion3.png; sourceTree = "<group>"; };
+		D20535CA1EC5D2650092E220 /* fire1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire1.png; sourceTree = "<group>"; };
+		D20535CB1EC5D2650092E220 /* fire2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire2.png; sourceTree = "<group>"; };
+		D20535CC1EC5D2650092E220 /* tile_73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_73.png; sourceTree = "<group>"; };
+		D20535DB1EC5D6380092E220 /* cannonBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannonBall.png; sourceTree = "<group>"; };
+		D213F9D11ECDCB92009CC9C9 /* cannonMobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannonMobile.png; sourceTree = "<group>"; };
+		D213F9D31ECDCBA9009CC9C9 /* tile_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_13.png; sourceTree = "<group>"; };
+		D213F9D41ECDCBA9009CC9C9 /* tile_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_15.png; sourceTree = "<group>"; };
+		D213F9D51ECDCBA9009CC9C9 /* tile_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_16.png; sourceTree = "<group>"; };
+		D213F9D61ECDCBA9009CC9C9 /* tile_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_30.png; sourceTree = "<group>"; };
+		D213F9D71ECDCBA9009CC9C9 /* tile_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_33.png; sourceTree = "<group>"; };
+		D213F9D81ECDCBA9009CC9C9 /* tile_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_34.png; sourceTree = "<group>"; };
+		D213F9D91ECDCBA9009CC9C9 /* tile_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_35.png; sourceTree = "<group>"; };
+		D213F9DA1ECDCBA9009CC9C9 /* tile_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_39.png; sourceTree = "<group>"; };
+		D213F9DB1ECDCBA9009CC9C9 /* tile_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_41.png; sourceTree = "<group>"; };
+		D213F9DC1ECDCBA9009CC9C9 /* tile_49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_49.png; sourceTree = "<group>"; };
+		D213F9DD1ECDCBA9009CC9C9 /* tile_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_50.png; sourceTree = "<group>"; };
+		D213F9DE1ECDCBA9009CC9C9 /* tile_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_51.png; sourceTree = "<group>"; };
+		D213F9DF1ECDCBA9009CC9C9 /* tile_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_52.png; sourceTree = "<group>"; };
+		D213F9E01ECDCBA9009CC9C9 /* tile_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_53.png; sourceTree = "<group>"; };
+		D213F9E11ECDCBA9009CC9C9 /* tile_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_55.png; sourceTree = "<group>"; };
+		D213F9E21ECDCBA9009CC9C9 /* tile_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_60.png; sourceTree = "<group>"; };
+		D213F9E31ECDCBA9009CC9C9 /* tile_62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_62.png; sourceTree = "<group>"; };
+		D213F9E41ECDCBA9009CC9C9 /* tile_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_64.png; sourceTree = "<group>"; };
+		D213F9E51ECDCBA9009CC9C9 /* tile_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_70.png; sourceTree = "<group>"; };
+		D213F9E61ECDCBA9009CC9C9 /* tile_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_71.png; sourceTree = "<group>"; };
+		D213F9E71ECDCBA9009CC9C9 /* tile_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_72.png; sourceTree = "<group>"; };
+		D213F9FD1ECDCBB5009CC9C9 /* tile_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_76.png; sourceTree = "<group>"; };
+		D213F9FE1ECDCBB5009CC9C9 /* tile_85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_85.png; sourceTree = "<group>"; };
+		D213FA011ECDCCE9009CC9C9 /* tile_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_38.png; sourceTree = "<group>"; };
+		D213FA031ECE040F009CC9C9 /* cannonLoose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannonLoose.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20535A01EC5D2530092E220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D205359A1EC5D2530092E220 = {
+			isa = PBXGroup;
+			children = (
+				D20535A51EC5D2530092E220 /* pirati sa kariba */,
+				D20535A41EC5D2530092E220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D20535A41EC5D2530092E220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20535A31EC5D2530092E220 /* pirati sa kariba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20535A51EC5D2530092E220 /* pirati sa kariba */ = {
+			isa = PBXGroup;
+			children = (
+				D20535A61EC5D2530092E220 /* AppDelegate.swift */,
+				D20535A81EC5D2530092E220 /* GameScene.sks */,
+				D20535AA1EC5D2530092E220 /* Actions.sks */,
+				D20535AC1EC5D2530092E220 /* GameScene.swift */,
+				D20535AE1EC5D2530092E220 /* GameViewController.swift */,
+				D20535B01EC5D2530092E220 /* Main.storyboard */,
+				D20535B31EC5D2530092E220 /* Assets.xcassets */,
+				D20535B51EC5D2530092E220 /* LaunchScreen.storyboard */,
+				D20535B81EC5D2530092E220 /* Info.plist */,
+				D20535BE1EC5D2650092E220 /* sredjene slike */,
+			);
+			path = "pirati sa kariba";
+			sourceTree = "<group>";
+		};
+		D20535BE1EC5D2650092E220 /* sredjene slike */ = {
+			isa = PBXGroup;
+			children = (
+				D20535BF1EC5D2650092E220 /* brodCrni1.png */,
+				D20535C01EC5D2650092E220 /* brodCrni2.png */,
+				D20535C11EC5D2650092E220 /* brodCrni3.png */,
+				D20535C21EC5D2650092E220 /* brodCrni4.png */,
+				D20535C31EC5D2650092E220 /* brodCrveni1.png */,
+				D20535C41EC5D2650092E220 /* brodCrveni2.png */,
+				D213FA031ECE040F009CC9C9 /* cannonLoose.png */,
+				D20535C51EC5D2650092E220 /* brodCrveni3.png */,
+				D20535C61EC5D2650092E220 /* brodCrveni4.png */,
+				D20535C71EC5D2650092E220 /* explosion1.png */,
+				D20535C81EC5D2650092E220 /* explosion2.png */,
+				D20535C91EC5D2650092E220 /* explosion3.png */,
+				D20535CA1EC5D2650092E220 /* fire1.png */,
+				D20535CB1EC5D2650092E220 /* fire2.png */,
+				D20535CC1EC5D2650092E220 /* tile_73.png */,
+				D213F9D11ECDCB92009CC9C9 /* cannonMobile.png */,
+				D213F9FD1ECDCBB5009CC9C9 /* tile_76.png */,
+				D213F9FE1ECDCBB5009CC9C9 /* tile_85.png */,
+				D213F9D31ECDCBA9009CC9C9 /* tile_13.png */,
+				D213F9D41ECDCBA9009CC9C9 /* tile_15.png */,
+				D213FA011ECDCCE9009CC9C9 /* tile_38.png */,
+				D213F9D51ECDCBA9009CC9C9 /* tile_16.png */,
+				D213F9D61ECDCBA9009CC9C9 /* tile_30.png */,
+				D213F9D71ECDCBA9009CC9C9 /* tile_33.png */,
+				D213F9D81ECDCBA9009CC9C9 /* tile_34.png */,
+				D213F9D91ECDCBA9009CC9C9 /* tile_35.png */,
+				D213F9DA1ECDCBA9009CC9C9 /* tile_39.png */,
+				D213F9DB1ECDCBA9009CC9C9 /* tile_41.png */,
+				D213F9DC1ECDCBA9009CC9C9 /* tile_49.png */,
+				D213F9DD1ECDCBA9009CC9C9 /* tile_50.png */,
+				D213F9DE1ECDCBA9009CC9C9 /* tile_51.png */,
+				D213F9DF1ECDCBA9009CC9C9 /* tile_52.png */,
+				D213F9E01ECDCBA9009CC9C9 /* tile_53.png */,
+				D213F9E11ECDCBA9009CC9C9 /* tile_55.png */,
+				D213F9E21ECDCBA9009CC9C9 /* tile_60.png */,
+				D213F9E31ECDCBA9009CC9C9 /* tile_62.png */,
+				D213F9E41ECDCBA9009CC9C9 /* tile_64.png */,
+				D213F9E51ECDCBA9009CC9C9 /* tile_70.png */,
+				D213F9E61ECDCBA9009CC9C9 /* tile_71.png */,
+				D213F9E71ECDCBA9009CC9C9 /* tile_72.png */,
+				D20535DB1EC5D6380092E220 /* cannonBall.png */,
+			);
+			path = "sredjene slike";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D20535A21EC5D2530092E220 /* pirati sa kariba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20535BB1EC5D2530092E220 /* Build configuration list for PBXNativeTarget "pirati sa kariba" */;
+			buildPhases = (
+				D205359F1EC5D2530092E220 /* Sources */,
+				D20535A01EC5D2530092E220 /* Frameworks */,
+				D20535A11EC5D2530092E220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pirati sa kariba";
+			productName = "pirati sa kariba";
+			productReference = D20535A31EC5D2530092E220 /* pirati sa kariba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D205359B1EC5D2530092E220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = g11;
+				TargetAttributes = {
+					D20535A21EC5D2530092E220 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B634WJ46GF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D205359E1EC5D2530092E220 /* Build configuration list for PBXProject "pirati sa kariba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D205359A1EC5D2530092E220;
+			productRefGroup = D20535A41EC5D2530092E220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D20535A21EC5D2530092E220 /* pirati sa kariba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D20535A11EC5D2530092E220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20535B21EC5D2530092E220 /* Main.storyboard in Resources */,
+				D213FA041ECE040F009CC9C9 /* cannonLoose.png in Resources */,
+				D20535D21EC5D2650092E220 /* brodCrveni2.png in Resources */,
+				D213F9EB1ECDCBA9009CC9C9 /* tile_30.png in Resources */,
+				D20535A91EC5D2530092E220 /* GameScene.sks in Resources */,
+				D213F9FC1ECDCBA9009CC9C9 /* tile_72.png in Resources */,
+				D213F9FF1ECDCBB5009CC9C9 /* tile_76.png in Resources */,
+				D213F9F01ECDCBA9009CC9C9 /* tile_41.png in Resources */,
+				D213F9F51ECDCBA9009CC9C9 /* tile_53.png in Resources */,
+				D213F9ED1ECDCBA9009CC9C9 /* tile_34.png in Resources */,
+				D20535CD1EC5D2650092E220 /* brodCrni1.png in Resources */,
+				D213F9EF1ECDCBA9009CC9C9 /* tile_39.png in Resources */,
+				D20535DA1EC5D2650092E220 /* tile_73.png in Resources */,
+				D20535D61EC5D2650092E220 /* explosion2.png in Resources */,
+				D20535D71EC5D2650092E220 /* explosion3.png in Resources */,
+				D20535D11EC5D2650092E220 /* brodCrveni1.png in Resources */,
+				D213F9F41ECDCBA9009CC9C9 /* tile_52.png in Resources */,
+				D20535D51EC5D2650092E220 /* explosion1.png in Resources */,
+				D213F9F71ECDCBA9009CC9C9 /* tile_60.png in Resources */,
+				D20535DC1EC5D6380092E220 /* cannonBall.png in Resources */,
+				D213FA021ECDCCE9009CC9C9 /* tile_38.png in Resources */,
+				D213F9EA1ECDCBA9009CC9C9 /* tile_16.png in Resources */,
+				D20535B41EC5D2530092E220 /* Assets.xcassets in Resources */,
+				D213F9F21ECDCBA9009CC9C9 /* tile_50.png in Resources */,
+				D20535B71EC5D2530092E220 /* LaunchScreen.storyboard in Resources */,
+				D20535D41EC5D2650092E220 /* brodCrveni4.png in Resources */,
+				D213F9F91ECDCBA9009CC9C9 /* tile_64.png in Resources */,
+				D20535D31EC5D2650092E220 /* brodCrveni3.png in Resources */,
+				D20535D91EC5D2650092E220 /* fire2.png in Resources */,
+				D213F9E81ECDCBA9009CC9C9 /* tile_13.png in Resources */,
+				D20535D01EC5D2650092E220 /* brodCrni4.png in Resources */,
+				D213F9F61ECDCBA9009CC9C9 /* tile_55.png in Resources */,
+				D213F9EC1ECDCBA9009CC9C9 /* tile_33.png in Resources */,
+				D20535CE1EC5D2650092E220 /* brodCrni2.png in Resources */,
+				D213FA001ECDCBB5009CC9C9 /* tile_85.png in Resources */,
+				D20535D81EC5D2650092E220 /* fire1.png in Resources */,
+				D213F9FB1ECDCBA9009CC9C9 /* tile_71.png in Resources */,
+				D213F9EE1ECDCBA9009CC9C9 /* tile_35.png in Resources */,
+				D213F9F81ECDCBA9009CC9C9 /* tile_62.png in Resources */,
+				D213F9F11ECDCBA9009CC9C9 /* tile_49.png in Resources */,
+				D213F9FA1ECDCBA9009CC9C9 /* tile_70.png in Resources */,
+				D213F9D21ECDCB92009CC9C9 /* cannonMobile.png in Resources */,
+				D213F9E91ECDCBA9009CC9C9 /* tile_15.png in Resources */,
+				D20535CF1EC5D2650092E220 /* brodCrni3.png in Resources */,
+				D213F9F31ECDCBA9009CC9C9 /* tile_51.png in Resources */,
+				D20535AB1EC5D2530092E220 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D205359F1EC5D2530092E220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20535AD1EC5D2530092E220 /* GameScene.swift in Sources */,
+				D20535AF1EC5D2530092E220 /* GameViewController.swift in Sources */,
+				D20535A71EC5D2530092E220 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D20535B01EC5D2530092E220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20535B11EC5D2530092E220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D20535B51EC5D2530092E220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20535B61EC5D2530092E220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D20535B91EC5D2530092E220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D20535BA1EC5D2530092E220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D20535BC1EC5D2530092E220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B634WJ46GF;
+				INFOPLIST_FILE = "pirati sa kariba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossover.g11.pirati-sa-kariba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D20535BD1EC5D2530092E220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B634WJ46GF;
+				INFOPLIST_FILE = "pirati sa kariba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossover.g11.pirati-sa-kariba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D205359E1EC5D2530092E220 /* Build configuration list for PBXProject "pirati sa kariba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20535B91EC5D2530092E220 /* Debug */,
+				D20535BA1EC5D2530092E220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20535BB1EC5D2530092E220 /* Build configuration list for PBXNativeTarget "pirati sa kariba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20535BC1EC5D2530092E220 /* Debug */,
+				D20535BD1EC5D2530092E220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D205359B1EC5D2530092E220 /* Project object */;
+}
